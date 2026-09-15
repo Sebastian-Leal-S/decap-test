@@ -1,9 +1,15 @@
-media_folder: "src/assets/images" # Location where files will be stored in the repo
-public_folder: "src/assets/images" # The src attribute for uploaded media
-
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "src/assets/images" # Location where files will be stored in the repo
+public_folder: "src/assets/images" # The src attribute for uploaded media
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: ${CLOUDINARY_CLOUD_NAME}
+    api_key: ${CLOUDINARY_API_KEY}
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
