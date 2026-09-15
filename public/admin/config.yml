@@ -8,8 +8,8 @@ public_folder: "src/assets/images" # The src attribute for uploaded media
 media_library:
   name: cloudinary
   config:
-    cloud_name: ${CLOUDINARY_CLOUD_NAME}
-    api_key: ${CLOUDINARY_API_KEY}
+    cloud_name: srgayipk
+    api_key: 124447571177655
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
